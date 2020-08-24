@@ -2,7 +2,7 @@ require('dotenv').config();
 const dateFns = require('date-fns');
 const fs = require('fs')
 const schedule = require('node-schedule');
-const onDutyJs = require('onDutyJs');
+const onDutyJs = require('on-duty-js');
 const colors = require('colors');
 const dateNow = dateFns.format(Date.now(),  'YYYY-MM-DD HH:mm:ss')
 

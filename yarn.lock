@@ -1422,9 +1422,10 @@ object.getownpropertydescriptors@^2.0.3:
     define-properties "^1.1.3"
     es-abstract "^1.17.0-next.1"
 
-"onDutyJs@https://github.com/PhantasWeng/onDuty.js.git":
+on-duty-js@^1.3.1:
   version "1.3.1"
-  resolved "https://github.com/PhantasWeng/onDuty.js.git#bcd14371b3c062aab11f1f5b7a38b56f6e5eac37"
+  resolved "https://registry.yarnpkg.com/on-duty-js/-/on-duty-js-1.3.1.tgz#b8d5d20d871c4bd00c35d89944d4cf39b0d2df42"
+  integrity sha512-7HRbBVvV2z0ARG/UA4apitVo8ZZxVQrDArSoR6dFdG1CRa0omznyIgWUOoPSlRbfqZXSsq1oJ+w78Hvhv/Fe+w==
   dependencies:
     colors "^1.3.2"
     commander "^2.19.0"
