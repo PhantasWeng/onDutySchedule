@@ -1,6 +1,6 @@
 {
   "name": "on-duty-schedule",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "onDuty with schedule and auto punch",
   "author": "Phantasweng <bensonuong@gmail.com>",
   "main": "index.js",
