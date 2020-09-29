@@ -4,7 +4,6 @@ const fs = require('fs')
 const schedule = require('node-schedule');
 const onDutyJs = require('on-duty-js');
 const colors = require('colors');
-const dateNow = dateFns.format(Date.now(),  'YYYY-MM-DD HH:mm:ss')
 
 const workDay = process.env.workDay ? process.env.workDay : '1-5'
 const punchTime = process.env.punchTime ? process.env.punchTime : '10,19'
@@ -17,7 +16,7 @@ if (process.env.userID && process.env.userID.length > 0) {
   const userID = process.env.userID
   // bot.botAlert('msg')
   // bot.botSuccess('msg')
-  bot.botSuccess('OnDutySchedule START. @' +  dateNow)
+  bot.botSuccess('OnDutySchedule START. @' +  dateFns.format(Date.now(),  'YYYY-MM-DD HH:mm:ss'))
   // bot.bot.onText(/\/on/, (msg, match) => {
   //   const resp = `🚨 <strong>TEST</strong>\n<pre>on</pre>\n`
   //   bot.bot.sendMessage(userID, resp, {parse_mode: 'HTML'});
@@ -31,7 +30,7 @@ if (process.env.userID && process.env.userID.length > 0) {
   //   bot.bot.sendMessage(userID, resp, {parse_mode: 'HTML'});
   // })
   bot.bot.onText(/\/punch/, (msg, match) => {
-    const resp = `👊🏻 <strong>Punch START.</strong>\n@${dateNow}`
+    const resp = `👊🏻 <strong>Punch START.</strong>\n@${dateFns.format(Date.now(),  'YYYY-MM-DD HH:mm:ss')}`
     bot.bot.sendMessage(userID, resp, {parse_mode: 'HTML'})
     punch()
   })
