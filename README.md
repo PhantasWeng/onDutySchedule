@@ -22,3 +22,11 @@ Command: `npm run start` `npm run stop` or enter command `npm run` to list all o
 
 For Yarn:
 use Command: `yarn start` to start, `yarn stop` to stop.
+
+### AUTO STARTUP
+If you have install `pm2` in global. you can use these script to create a `autostart` after server bootup or reboot.
+1. create a platform with `pm2 startup`
+2. Run your single-punch by `npm run start` or `yarn start`
+3. use `pm2 save` to save the process.
+4. `sudo reboot` to reboot your server, and see if its works.
+
