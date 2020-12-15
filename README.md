@@ -1,5 +1,5 @@
-# onDutySchedulle.js
-onDutySchedulle is a cronJob wrap for [onDutyJs](https://github.com/PhantasWeng/onDuty.js), base on pm2.
+# onDutySchedule.js
+onDutySchedule is a cronJob wrap for [onDutyJs](https://github.com/PhantasWeng/onDuty.js), base on pm2.
 
 
 ### Install
@@ -22,3 +22,7 @@ Command: `npm run start` `npm run stop` or enter command `npm run` to list all o
 
 For Yarn:
 use Command: `yarn start` to start, `yarn stop` to stop.
+
+###
+branchs:
+- single-punch: use telegram bot to do a punch with script `/punch`, this version will not do schedule
