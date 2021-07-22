@@ -1243,10 +1243,10 @@ object.assign@^4.1.0:
     has-symbols "^1.0.0"
     object-keys "^1.0.11"
 
-on-duty-js@^1.4.2-telegram:
-  version "1.4.2-telegram"
-  resolved "https://registry.yarnpkg.com/on-duty-js/-/on-duty-js-1.4.2-telegram.tgz#3bad4c38c17f6ecca506c33998f2ee6e425a9962"
-  integrity sha512-nhvFEqT6MlojVKPePhv1BjJ32ETftPItKOSAbBPAUp+0Dn4OPU866Z+7PrDF8Rg+SOEv+/yZkPVMJ9NCBBvg+A==
+on-duty-js@^1.4.3-telegram:
+  version "1.4.3-telegram"
+  resolved "https://registry.yarnpkg.com/on-duty-js/-/on-duty-js-1.4.3-telegram.tgz#d54e7639346df9d197a4679c19f8fc5490368d65"
+  integrity sha512-fa06f3K//fqpvNDAF5cm8b2411HDu4GbeYc/D11p5/gp0jX4KX/GOFe9EduD9epf0hTa9Qd+gR7y5m9wJtVESg==
   dependencies:
     colors "^1.3.2"
     commander "^2.19.0"
